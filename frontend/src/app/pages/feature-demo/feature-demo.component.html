@@ -1,0 +1,36 @@
+<div
+  class="d-flex align-items-center justify-content-center"
+  style="height: 80vh"
+>
+  <div class="text-center pb-1">
+    <h2>Feature Demo</h2>
+    <app-nav-bar></app-nav-bar>
+  </div>
+
+
+  <div class="pt-1 pb-1">
+    <label for="name">Html Sanitization Test: </label>
+    <input id="name" type="text" [formControl]="name" />
+  </div>
+
+  <div class="pt-1 pb-11">
+    <label for="sanitizedHtml">Sanitized Content: </label>
+    <div id="sanitizedHtml" [innerHTML]="name.value | safehtml : 'html'"></div>
+  </div>
+
+
+
+  <div class="pt-1 pb-1">
+    <label for="web-component-test">Web Component Test: </label>
+    <md-elevated-button id="web-component-test"> Elevated </md-elevated-button>
+  </div>
+
+  <label>
+    Material 3
+    <md-checkbox checked></md-checkbox>
+  </label>
+  <md-outlined-button>Back</md-outlined-button>
+  <md-filled-button>Next</md-filled-button>
+
+
+</div>
