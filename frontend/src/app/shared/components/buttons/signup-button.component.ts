@@ -7,7 +7,8 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
-  <button class="button__sign-up" (click)="handleSignUp()">Sign Up</button>
+  <!-- <button class="custom-button" (click)="handleSignUp()">Sign Up</button> -->
+  <li class="px-2 custom-button" (click)="handleSignUp()">Sign Up</li>
   `
 })
 export class SignupButtonComponent {

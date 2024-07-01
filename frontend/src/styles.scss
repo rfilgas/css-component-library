@@ -45,6 +45,28 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  width: 100%;
 }
 
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.custom-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #FF5733;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0px;
+  transition: background-color 0.3s;
+  width: auto;
+}
+
+.custom-button:hover {
+  background-color: #e04a2f;
+}
+
+.nav-bar__tab--active {
+  background-color: #e04a2f;
+}

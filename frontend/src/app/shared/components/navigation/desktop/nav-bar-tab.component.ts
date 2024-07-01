@@ -6,9 +6,10 @@ import {MatButtonModule} from "@angular/material/button";
   standalone: true,
   imports: [RouterModule, MatButtonModule],
   selector: 'app-nav-bar-tab',
+  styleUrl: './nav-bar-tab.component.scss',
   template: `
     <a
-      mat-button class="px-2 custom-button"
+      class="px-2 custom-button"
       [routerLink]="path"
       routerLinkActive="nav-bar__tab--active"
     >

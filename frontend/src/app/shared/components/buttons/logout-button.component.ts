@@ -7,7 +7,8 @@ import { AuthService } from '@auth0/auth0-angular';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <button class="button__logout" (click)="handleLogout()">Log Out</button>
+    <!-- <button class="custom-button" (click)="handleLogout()">Log Out</button> -->
+    <li class="px-2 custom-button" (click)="handleLogout()">Log Out</li>
   `
 })
 export class LogoutButtonComponent {
