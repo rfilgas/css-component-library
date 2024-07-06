@@ -55,32 +55,10 @@ p {
 main {
   width: 100%;
   min-height: 100%;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 1rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  box-sizing: inherit;
-  position: relative;
 }
-
-
-// @media screen and (max-width: 650px) {
-//   .content {
-//     flex-direction: column;
-//     width: max-content;
-//   }
-
-//   .divider {
-//     height: 1px;
-//     width: 100%;
-//     background: var(--red-to-pink-to-purple-horizontal-gradient);
-//     margin-block: 1.5rem;
-//   }
-// }
 

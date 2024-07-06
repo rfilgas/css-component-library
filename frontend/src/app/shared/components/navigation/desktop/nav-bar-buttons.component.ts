@@ -9,6 +9,7 @@ import { SignupButtonComponent } from '../../buttons/signup-button.component';
   standalone: true,
   imports: [CommonModule, SignupButtonComponent, LoginButtonComponent, LogoutButtonComponent],
   selector: 'app-nav-bar-buttons',
+  styleUrl: './nav-bar.component.scss',
   templateUrl: './nav-bar-buttons.component.html',
 })
 export class NavBarButtonsComponent {

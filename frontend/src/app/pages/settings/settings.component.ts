@@ -8,7 +8,7 @@ import {NavBarComponent, NavBarTabComponent} from "@/app/shared/components/navig
   standalone: true,
   imports: [CommonModule,NavBarComponent],
   templateUrl: './settings.component.html',
-  styleUrl: './settings.component.css'
+  styleUrl: './settings.component.scss'
 })
 export class SettingsComponent {
 

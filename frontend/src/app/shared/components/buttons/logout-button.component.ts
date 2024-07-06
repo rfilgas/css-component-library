@@ -6,6 +6,7 @@ import { AuthService } from '@auth0/auth0-angular';
   selector: 'app-logout-button',
   standalone: true,
   imports: [CommonModule],
+  styleUrl: '../navigation/desktop/nav-bar.component.scss',
   template: `
     <!-- <button class="custom-button" (click)="handleLogout()">Log Out</button> -->
     <li class="px-2 custom-button" (click)="handleLogout()">Log Out</li>

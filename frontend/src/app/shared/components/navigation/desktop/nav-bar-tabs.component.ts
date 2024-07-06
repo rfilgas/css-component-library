@@ -7,6 +7,7 @@ import { NavBarButtonsComponent } from "./nav-bar-buttons.component";
 @Component({
     standalone: true,
     selector: 'app-nav-bar-tabs',
+    styleUrl: './nav-bar.component.scss',
     templateUrl: './nav-bar-tabs.component.html',
     imports: [NavBarTabComponent, MatButtonModule, RouterLink, NavBarButtonsComponent]
 })

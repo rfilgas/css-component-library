@@ -6,6 +6,7 @@ import { AuthService } from '@auth0/auth0-angular';
   selector: 'app-login-button',
   standalone: true,
   imports: [CommonModule],
+  styleUrl: '../navigation/desktop/nav-bar.component.scss',
   template: `
     <!-- <button class="custom-button" (click)="handleLogin()">Log In</button> -->
 

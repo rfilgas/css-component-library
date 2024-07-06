@@ -8,6 +8,4 @@ import {MobileNavBarComponent, NavBarComponent} from "../../shared/components/na
   imports: [CommonModule, MobileNavBarComponent, NavBarComponent],
   templateUrl: './callback.component.html'
 })
-export class CallbackComponent {
-
-}
+export class CallbackComponent {}

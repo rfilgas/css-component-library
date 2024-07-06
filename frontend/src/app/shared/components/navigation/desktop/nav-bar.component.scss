@@ -1,11 +1,13 @@
 .navbar {
+  position: fixed;
+  top: 0px;
+  padding-right: 1px;
+  padding-left: 10px;
+  width: 100vw;
+  height: 5vh;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #FF5733;
-  padding: 10;
-  position: relative;
-  flex-grow: 1;
 }
 
 .logo {
@@ -14,6 +16,9 @@
 }
 
 .menu-icon {
+  position: fixed;
+  top: .75vh;
+  right: 1vh;
   font-size: 24px;
   color: white;
   cursor: pointer;
@@ -47,15 +52,41 @@
   padding: 10px;
   color: #FF5733;
   text-decoration: none;
-  transition: background 0.3s;
+  transition: 0.3s;
 }
 
 .dropdown-menu li a:hover {
   background-color: #f1f1f1;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 650px) {
   .dropdown-menu {
     display: none;
   }
+}
+
+.custom-button {
+  position: relative;
+  top: -1px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 10px;
+  background-color: #FF5733;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0px;
+  transition: background-color 0.3s;
+  width: auto;
+}
+
+.custom-button:hover {
+  background-color: #e04a2f;
+}
+
+
+.nav-bar__tab--active {
+  background-color: #e04a2f;
 }

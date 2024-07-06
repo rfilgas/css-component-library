@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-signup-button',
   standalone: true,
   imports: [CommonModule],
+  styleUrl: '../navigation/desktop/nav-bar.component.scss',
   template: `
   <!-- <button class="custom-button" (click)="handleSignUp()">Sign Up</button> -->
   <li class="px-2 custom-button" (click)="handleSignUp()">Sign Up</li>
